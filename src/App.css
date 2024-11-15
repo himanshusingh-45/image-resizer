@@ -1,0 +1,115 @@
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode {
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.quality-value {
+  font-weight: bold;
+}
+
+.upload-label {
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.animated-card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.text-end {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+button {
+  cursor: default; /* Default cursor for all buttons */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transitions for hover effects */
+}
+
+button:not(:disabled) {
+  cursor: pointer; /* Pointer cursor for enabled buttons */
+}
+
+button:hover:not(:disabled) {
+  background-color: #0056b3; /* Darken background on hover */
+  color: white; /* Change text color on hover */
+}
+
+button:disabled {
+  opacity: 0.5; /* Make disabled buttons look inactive */
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.container {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.upload-label {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#preview {
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+#quality-value {
+  display: inline-block;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.bi {
+  margin-right: 5px;
+}
